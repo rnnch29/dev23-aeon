@@ -1,0 +1,476 @@
+/* HEADER */
+header {
+    position: fixed;
+    top: 0;
+    background-color: #5E0F7A;
+    padding: 20px 100px;
+    z-index: 999;
+    width: 100%;
+}
+
+header .link .nav-title{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Good Times Rg', sans-serif; 
+}
+
+header .link img{
+    width: 60px;
+    height: 60px;
+}
+
+/* Dropdow ภาษา */
+.dropdown .dropdown-toggle,
+.dropdown-item {
+    padding: 10px;
+    border: none;
+    background-color: transparent; 
+}
+
+
+.dropdown .dropdown-toggle img,
+.dropdown-item img {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    margin: auto; 
+}
+
+.dropdown .dropdown-menu{
+    min-width: 2rem;
+
+}
+
+.dropdown .dropdown-toggle::after{
+    display: inline-block;
+    margin-left: 0.1em;
+    vertical-align: 0.1em;
+    content: "";
+    border-top: 0.4em solid;
+    border-right: 0.4em solid transparent;
+    border-bottom: 0;
+    border-left: 0.4em solid transparent;
+}
+
+
+
+/* HERO */
+/* .hero-banner .cover {
+    padding-top: 50%;
+} */
+
+.hero-banner .cover {
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+}
+
+.hero-banner .cover img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.hero-banner .embed-responsive video{
+    height: 113%;
+}
+
+.hero-banner .slick-dots  {
+    bottom:-35px;
+    position: static;
+}
+
+.hero-banner .slick-dots li button {
+    background-color: white;
+    border-radius: 50%;
+    transition: all 200ms ease-out; 
+}
+
+.hero-banner .slick-dots li.slick-active button {
+    background-color: #F98DE9;
+}
+
+.hero-banner .slick-dots li button:hover {
+    background-color: #F98DE9;
+}
+
+.hero-banner .slick-dots li button::before {
+    display: none;
+}
+
+.hero-banner .slick-next  {
+    right:150px;
+}
+
+/* .hero-banner .slick-next .triangle-right{
+border-left:
+    30px solid black;
+}
+.hero-banner .slick-next .triangle-left{
+border-right:
+    30px solid black;
+}
+
+.hero-banner .slick-next button::before{
+    display: none;
+} */
+
+.hero-banner .slick-prev .slick-next button::before{
+    display: none;
+}
+
+
+.hero-banner .item.vdo  {
+    position: relative;
+}
+
+.hero-banner .item.vdo .cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* section-I */
+.block-platinum-card {
+    padding: 1px 100px;
+    
+}
+
+.block-platinum-card p{
+    font-size: 40px;
+}
+
+.block-platinum-card h1{
+    font-family: 'Good Times Rg', sans-serif;                                   
+    font-size: 70px;
+    background: -webkit-linear-gradient(9deg, #7C73F3, #E177B3 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+    margin-top: 10px;background: -webkit-linear-gradient(9deg, #7C73F3, #E177B3 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.block-platinum-card h3{
+    font-size: 60px;
+}
+
+.block-platinum-card img {
+    width: 100%;
+    margin-top: 300px;
+}
+
+
+/* section-II */
+.block-benefits-slider {padding: 180px 0;}
+.block-benefits-slider  .slick-list {
+    overflow: unset !important;
+}
+.block-benefits-slider .item {
+    position: relative;
+    background-color: #E177B3;
+    padding: 55px 15px;
+    margin: 20px 20px;
+    border-radius: 40px;
+    overflow: hidden;
+    /* height: 400px; */
+    /* padding-top: 100px; */
+    transition: all 200ms ease-out;
+    border-radius: 42px; background: radial-gradient(40.07% 41.42% at 79.39% 84.16%, #9E85D3 0%, #F98DE9 100%);
+}
+
+.block-benefits-slider .item .link {
+    position: relative;
+    top: 25px;
+    color: #FCD40F;
+    left: 220px;
+}
+
+.block-benefits-slider .item:hover {
+    padding-top: 100px;
+    margin-top: -60px;
+}
+
+.block-benefits-slider .item:hover .link {
+    display: block;
+}
+
+/* .block-benefits-slider .item:hover{
+    height: 500px;
+} */
+
+.block-benefits-slider .item img{
+    margin: auto;
+}
+
+.block-benefits-slider .item .title{
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.block-benefits-slider .item .desc{
+    text-align: center;
+    line-height: 1.3;
+}
+
+.block-benefits-slider .item .link{
+    display: none;
+}
+
+
+
+/* section */
+
+/* .section {
+    position: relative;
+    padding: 0.5rem 0;
+} */
+
+.graphics > div{
+    position: absolute;
+    pointer-events: none;
+}
+
+.graphics .obj-I {
+    width: 224px;
+    top: 52%;
+    right: 132%;
+    margin-right: -960px;
+}
+
+.graphics .obj-II {
+    /* position: absolute; */
+    width: 222px;
+    top: -140px;
+    right: 50%;
+    margin-right: -960px;
+}
+
+.graphics .obj-III {
+    width: 222px;
+    top: 63%;
+    right: 139%;
+    margin-right: -958px;
+}
+
+.graphics .obj-IV {
+    /* filter: brightness(60%); */
+    width: 222px;
+    top: -355px;
+    right: 62%;
+    margin-right: -958px;
+}
+
+
+/* bottom */
+
+.btn-I{
+    width: 234px;
+    height: 74px;
+    line-height: 51px;
+    position: relative;
+    color: #F98DE9;
+    background-color: #101825;
+    border-color: #F98DE9;
+    border-width: 4px;
+    border-radius: 10px;
+    transition: all 200ms ease-out;
+    font-size: 28px;
+    border: 4px solid #F98DE9;
+
+}
+
+.block-platinum-card button:hover{
+    background-color: #F98DE9;
+    color: #ffffff;
+}
+
+.embed-responsive-16by9::before {
+    padding-top: 50%;
+}
+
+/* dot benefit */
+.block-benefits-slider .slick-dots {
+    bottom: -30px;
+}
+
+.block-benefits-slider .slick-dots li button {
+    background-color: white;
+    border-radius: 50%;
+    transition: all 200ms ease-out; 
+}
+
+.block-benefits-slider .slick-dots li.slick-active button {
+    background-color: #F98DE9;
+}
+
+.block-benefits-slider .slick-dots li button:hover {
+    background-color: #F98DE9;
+}
+
+.block-benefits-slider .slick-dots li button::before {
+    display: none;
+}
+
+/* .block-benefits-slider .slider .item .icon img{
+    width: 248px;
+    height: 255px;
+    flex-shrink: 0;
+    fill: rgba(212, 115, 131, 0.65);
+    filter: blur(30px);
+} */
+
+.block-benefits-slider h1{
+    /* padding: 0px 730px; */
+    text-align: center;
+    font-family: 'Good Times Rg', sans-serif;                                   
+    font-size: 70px;
+    background: -webkit-linear-gradient(55deg, #1200ff, #E177B3 65%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.block-benefits-slider h3{
+    font-size: 60px;
+}
+
+/* master-card */
+
+/* .master-card{
+    text-align: center;
+} */
+
+.master-card h5{
+    font-size: 40px;
+}
+
+.master-card h1{
+    /* padding: 0px 730px; */
+    text-align: center;
+    font-family: 'Good Times Rg', sans-serif;                                   
+    font-size: 90px;
+    background: -webkit-linear-gradient(9deg, #7C73F3, #E177B3 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-top: 10px;background: -webkit-linear-gradient(9deg, #7C73F3, #E177B3 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.master-card h3{
+    font-size: 60px;
+}
+
+.master-card p{
+    font-size: 30px;
+}
+
+.btn-III {
+    width: 580px;
+    height: 75px;
+    line-height: 51px;
+    position: relative;
+    color: #F98DE9;
+    background-color: #101825;
+    border-color: #F98DE9;
+    border-width: 4px;
+    border-radius: 10px;
+    transition: all 200ms ease-out;
+    font-size: 28px;
+    border: 4px solid #F98DE9;
+}
+
+.master-card button:hover{
+    background-color: #F98DE9;
+    color: #ffffff;
+}
+
+
+/* MODAL */
+.modal-content{
+    color: #000;
+}
+
+.modal-content .modal-body img{
+    width: 100%
+}
+
+.modal-content{
+    border-radius: 3.5rem;
+}
+
+.modal-header{
+    margin: 0 30px;
+    border-bottom: 4px solid #B6029F;
+}
+
+.modal-header .close {
+    padding: 1rem 0rem;
+    margin: 0rem 0rem -1rem 391px;
+    color: red;
+}
+
+.modal-header h4{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 30px;
+    left: 30px;
+}
+
+.modal-body{
+    margin: 0 30px;
+    line-height: 1.2;
+}
+
+.modal-body a{
+    color: #000;
+}
+
+
+/* .modal-body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+
+.modal-body::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  } */
+
+
+  /*section-IV THAI-Mobile */
+
+.section.-IV .thai-mobile{
+    position: relative;
+    pointer-events: none;
+}
+
+.thai-mobile img{
+    width: 111%;
+    margin: -10% -18%;
+}
+
+/* กราฟฟิค */
+.section.-I .graphics{
+    position: relative;
+    top: -555px;
+}

@@ -10,9 +10,9 @@ class HomePage {
         " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_masterkey as masterkey,
         " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_subject" . $lang . " as subject,
         " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_title" . $lang . " as title,
-        " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_pic as pic,
-        " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_filevdo as filevdo,
-        " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_urlvdo as urlvdo,
+        " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_pic" . $lang . " as pic,
+        " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_filevdo" . $lang . " as filevdo,
+        " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_urlvdo" . $lang . " as urlvdo,
         " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_type as type,
         " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_url" . $lang . " as url,
         " . $config['tgp']['db'] . "." . $config['tgp']['db'] . "_target as target
@@ -49,7 +49,7 @@ class HomePage {
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_masterkey as masterkey,
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_subject" . $lang . " as subject,
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_title" . $lang . " as title,
-        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_htmlfilename as htmlfilename
+        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_htmlfilename" . $lang . " as htmlfilename
 
     
         FROM
@@ -83,8 +83,8 @@ class HomePage {
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_masterkey as masterkey,
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_subject" . $lang . " as subject,
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_title" . $lang . " as title,
-        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_htmlfilename as htmlfilename,
-        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_pic as pic
+        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_htmlfilename" . $lang . " as htmlfilename,
+        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_pic" . $lang . " as pic
 
     
         FROM
@@ -119,7 +119,7 @@ class HomePage {
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_masterkey as masterkey,
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_subject" . $lang . " as subject,
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_title" . $lang . " as title,
-        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_htmlfilename as htmlfilename
+        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_htmlfilename" . $lang . " as htmlfilename
 
     
         FROM
@@ -154,7 +154,7 @@ class HomePage {
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_masterkey as masterkey,
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_subject" . $lang . " as subject,
         " . $config['cms']['db'] . "." . $config['cms']['db'] . "_title" . $lang . " as title,
-        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_htmlfilename as htmlfilename
+        " . $config['cms']['db'] . "." . $config['cms']['db'] . "_htmlfilename" . $lang . " as htmlfilename
 
     
         FROM

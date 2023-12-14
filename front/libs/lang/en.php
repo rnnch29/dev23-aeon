@@ -1,4 +1,5 @@
 <?php
+
 $lang['menu']['home'] = "HOME";
 $lang['menu']['about'] = "ABOUT";
 $lang['menu']['product'] = "PRODUCT";

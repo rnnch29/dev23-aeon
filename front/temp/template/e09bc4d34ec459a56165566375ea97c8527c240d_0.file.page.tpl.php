@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2023-12-12 09:18:41
+/* Smarty version 3.1.30, created on 2023-12-13 16:53:06
   from "C:\xampp\htdocs\dev23-aeon\front\template\default\page.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6577c301d62ef4_65596762',
+  'unifunc' => 'content_65797f02bf1ac7_95484130',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e09bc4d34ec459a56165566375ea97c8527c240d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\dev23-aeon\\front\\template\\default\\page.tpl',
-      1 => 1702347355,
+      1 => 1702460731,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6577c301d62ef4_65596762 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65797f02bf1ac7_95484130 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $_smarty_tpl->tpl_vars['langon']->value;?>

@@ -98,7 +98,7 @@
 
                 <!-- MODAL -->
                 <div class="modal fade" class="modal" id="myModals">
-                    <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                         <div class="modal-content">
 
                             <!-- Modal Header -->
@@ -134,7 +134,7 @@
                 </div>
 
                 <div class="modal fade" class="modal" id="myModals007">
-                    <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                         <div class="modal-content">
 
                             <!-- Modal Header -->
@@ -340,7 +340,6 @@
                             <h3> <b>Benefits</b> </h3>
                         </div>
                     </div>
-                    
                     <div class="slider mt-5">
                         <div class="item">
                             <div class="wrapper">
@@ -501,7 +500,7 @@
 
                     <!-- MODAL -->
                     <div class="modal fade" class="modal" id="myModals01">
-                        <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
 
                                 <!-- Modal Header -->
@@ -522,7 +521,7 @@
                     </div>
 
                     <div class="modal fade" class="modal" id="myModals02">
-                        <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
 
                                 <!-- Modal Header -->
@@ -563,7 +562,7 @@
                     </div>
 
                     <div class="modal fade" class="modal" id="myModals03">
-                        <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
 
                                 <!-- Modal Header -->
@@ -728,7 +727,7 @@
                     </div>
 
                     <div class="modal fade" class="modal" id="myModals04">
-                        <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
 
                                 <!-- Modal Header -->
@@ -847,7 +846,7 @@
                     </div>
 
                     <div class="modal fade" class="modal" id="myModals05">
-                        <div class="modal-dialog modal-dialog-scrollable">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
 
                                 <!-- Modal Header -->
@@ -928,15 +927,120 @@
             </div>
 
             <div class="section -IV">
-                <div class="thai-mobile" style="margin-bottom: 10rem;">
-                    <a href="" target="">
-                        <img src="../assets/img/thai-mobile.png." alt="">
+                <div class="container">
+                    <a href="">
+                        <div class="thai-mobile">
+                            <img src="../assets/img/thai-mobile.png." alt="">
+                        </div>
                     </a>
                 </div>
             </div>
 
             <div class="section -V">
+                <div class="container" style="margin: 250px 380px;">
+                    <div class="how-to">
+                        <div class="row no-gutters">
+                            <div class="col-auto">
+                                <div class="slider">
+                                    <div class="item">
+                                        <div class="cover">
+                                            <a href="">
+                                                <img src="../assets/img/how-to.png" alt="aeontop">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <div class="col font-platinum">
+                                <h2>ขั้นตอนการเปิดใช้งานบัตรเครดิต</h2><br>
+                                <h1>AEON NEXTGEN PLATINUM</h1><br>
+                                <h2>ง่ายๆ เพียง 3 ขั้นตอน</h2><br>
+                                <ul class="nav nav-pills" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="pill" href="#home">เปิดใช้งานบัตร</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#menu1">ดูข้อมูลบัตร</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="pill" href="#menu2">สแกนจ่ายด้วย QR</a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content">
+                                    <div id="home" class="container tab-pane active"><br>
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-header" data-toggle="collapse" data-target="#cl-01"
+                                                    aria-expanded="true">
+                                                    <span class="title">ขั้นตอนการสมัครบัตร </span>
+                                                    <span class="accicon">
+                                                        <i class="fas fa-angle-down rotate-icon"></i></span>
+                                                </div>
+                                                <div id="cl-01" class="collapse show" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit,
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-header collapsed" data-toggle="collapse"
+                                                    data-target="#cl-02" aria-expanded="false" aria-controls="cl-02">
+                                                    <span class="title">ขั้นตอนการเปิดใช้งานบัตร</span>
+                                                    <span class="accicon">
+                                                        <i class="fas fa-angle-down rotate-icon"></i></span>
+                                                </div>
+                                                <div id="cl-02" class="collapse" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div id="menu1" class="container tab-pane fade"><br>
+                                        <p>สมัครบัตรเครดิต ดิจิทัล อิออน เน็กซ์เจน ผ่านทางแอปพลิเคชัน AEON THAI MOBILE
+                                            รับเครดิตเงินคืนต่อที่ 1 รับ 200 บาท เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ 5,000
+                                            บาท ขึ้นไป ต่อที่ 2 เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ 15,000 บาท ขึ้นไป รับ
+                                            Lazada e-Coupon 1,800 บาท*
+                                        </p><br>
+                                        <p>
+                                            รายละเอียด : คำนวณยอดใช้จ่ายจากบัตรหลัก ทั้งนี้ไม่นับรวมถึงการชำระค่าสินค้า
+                                            หรือบริการประเภทสินเชื่อเงินกู้, เช่าซื้อ,
+                                            การชำระค่าสินค้า/บริการทุกรายการในหมวดการซื้อหน่วยลงทุน/กองทุนรวม,
+                                            ยอดค่าเบี้ยประกันชีวิตควบการลงทุน Unit Linked (MCC Code 6211),
+                                            การแลกเปลี่ยนเงินตราต่างประเทศ (MCC Code 6051, 4829),
+                                            การเบิกถอนเงินสดล่วงหน้า, ดอกเบี้ย ค่าธรรมเนียมการใช้วงเงิน, ค่าปรับ,
+                                            ค่าธรรมเนียม, ภาษีอากรต่างๆ และรายการที่มีการยกเลิก หรือคืนสินค้า/บริการ
+                                        </p>
+
+                                    </div>
+
+                                    <div id="menu2" class="container tab-pane fade"><br>
+                                        <div class="accordion" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-header" data-toggle="collapse" data-target="#cl-03"
+                                                    aria-expanded="true">
+                                                    <span class="title">Collapsible Group Item #1 </span>
+                                                    <span class="accicon">
+                                                        <i class="fas fa-angle-down rotate-icon"></i></span>
+                                                </div>
+                                                <div id="cl-03" class="collapse show" data-parent="#accordionExample">
+                                                    <div class="card-body">
+                                                        Anim pariatur cliche reprehenderit,
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="section -VI">

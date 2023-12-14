@@ -465,12 +465,55 @@ border-right:
 }
 
 .thai-mobile img{
-    width: 111%;
-    margin: -10% -18%;
+    width: 179%;
+    margin: -37% -47%;
 }
 
 /* กราฟฟิค */
 .section.-I .graphics{
     position: relative;
     top: -555px;
+}
+
+
+/* section IV */
+
+.section.-IV .container{
+    padding: 300px 0px;
+    margin: 0px 222px;
+}
+
+
+/* section V */
+
+
+
+/* col ขวาคอแลป */
+
+.font-platinum{
+    margin: 80px 100px;
+}
+
+.card-header .title {
+    font-size: 17px;
+    color: #ffffff;
+}
+.card-header .accicon {
+  float: right;
+  font-size: 20px;  
+  width: 1.2em;
+}
+.card-header{
+  cursor: pointer;
+  border-bottom: none;
+}
+.card{
+    background-color: #101825;
+    border: 1px solid #B7B1B1;
+}
+.card-body{
+  border-top: 1px solid #000000;
+}
+.card-header:not(.collapsed) .rotate-icon {
+  transform: rotate(180deg);
 }

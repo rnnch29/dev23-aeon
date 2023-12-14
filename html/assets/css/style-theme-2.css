@@ -133,21 +133,15 @@ body {
 }
 
 .wg-benefits-list .card{
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
     background-image: url(../img/icon-2/benefit-bg.png);
     background-color: #fff;
-    background-clip: border-box;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 20px;
     width: 519px;
     height: 353px;
-    margin-right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 200ms ease-out;
 }
 
 .wg-benefits-list .card .icon img{
@@ -374,41 +368,108 @@ body {
     margin-top: 10px;
     line-height: 2;
 }
-/*  */
+/* aeon-nextgen */
 .aeon-nextgen .aeon-next-gen .text-center p {
     font-family: 'Kanit', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     background: #000;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: -35px;
     margin-top: 40%;
     line-height: 2;
+    margin-left: -145px;
 }
 .aeon-nextgen .aeon-next-gen .text-center h2 {
     font-family: 'Kanit', sans-serif;
-    font-size: 70px;
+    font-size: 80px;
     background: rgb(33,0,255);
     background: linear-gradient(180deg, rgba(33,0,255,1) 0%, rgba(179,86,231,1) 45%, rgba(244,12,223,1) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: -25px;
     margin-top: 0px;
+    margin-left: -80px;
     line-height: 2;
 }
 .aeon-nextgen .aeon-next-gen .text-center h3 {
     color: #000;
-    font-size: 45px;
+    font-size: 50px;
     padding-bottom: 0px;
+    margin-left: -140px;
 }
 .aeon-nextgen .aeon-next-gen .text-center h4 {
     font-size: 1.5rem;
     color: #000;
+    margin-left: -106px;
 }
 .aeon-nextgen .aeon-next-gen .text-center h5 {
     font-size: 1.5rem;
     color: #000;
+    margin-left: -106px;
 }
+/* butaeon-nextgen */
+.aeon-next-gen .btn-next-gen{
+    width: 500px;
+    height: 75px;
+    line-height: 51px;
+    position: relative;
+    color: #0050FF;
+    background-color: rgba(255,255,255,0);
+    border-color: #F98DE9;
+    border-width: 4px;
+    border-radius: 10px;
+    transition: all 200ms ease-out;
+    font-size: 24px;
+    border: 2px solid #0050FF;
+    margin-left: -130px;
+}
+.aeon-next-gen .btn-aeonnext{
+    width: 500px;
+    height: 75px;
+    line-height: 51px;
+    position: relative;
+    color: #0050FF;
+    background-color: rgba(255,255,255,0);
+    border-color: #F98DE9;
+    border-width: 4px;
+    border-radius: 10px;
+    transition: all 200ms ease-out;
+    font-size: 24px;
+    border: 2px solid #0050FF;
+}
+.aeon-next-gen .item .action .btn{
+    background: none;
+    position: relative;
+    padding: 0 30px;
+    min-width: 180px;
+    height: 50px;
+    line-height: 48px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: 24px;
+    font-weight: var(--fw-medium);
+}
+.aeon-nextgen .wg-benefits-list .action .btn-next{
+    background: none;
+    color: #6900D2;
+    position: relative;
+    padding: 0 30px;
+    min-width: 180px;
+    height: 50px;
+    line-height: 48px;
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: 40px;
+    font-weight: var(--fw-medium);
+}
+
+.wg-benefits-list .slider .slick-slide.slick-center .card {
+    width: 750px;
+    /* height: 640px; */
+}
+/* aeon thai mobile */
+
 
 /* Breakpoint */
 @media (max-width: 1440px) {

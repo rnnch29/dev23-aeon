@@ -162,8 +162,8 @@
                                                     ที่ร่วมรายการ
                                                 </h5>
                                                 <div class="action">
-                                                    <div class="btn btn-primary">
-                                                        >>
+                                                    <div class="btn-next">
+                                                        <strong> >> </strong>
                                                     </div>
                                                 </div>
                                             </div>
@@ -193,10 +193,10 @@
                                                     ที่ร่วมรายการ
                                                 </h5>
                                                 <div class="action">
-                                                    <div class="btn btn-primary">
-                                                        รายละเอียดเพิ่มเติม
+                                                    <div class="btn-next">
+                                                        <strong> >> </strong>
                                                     </div>
-                                                </div>
+                                                </div> 
                                             </div>
                                         </div>
                                     </a>
@@ -224,10 +224,10 @@
                                                     สิทธิ์/บัตร/เดือน
                                                 </h5>
                                                 <div class="action">
-                                                    <div class="btn btn-primary">
-                                                        รายละเอียดเพิ่มเติม
+                                                    <div class="btn-next">
+                                                        <strong> >> </strong>
                                                     </div>
-                                                </div>
+                                                </div> 
                                             </div>
                                         </div>
                                     </a>
@@ -255,8 +255,8 @@
                                                     AEON Lounge ทุกสาขาต่อ 1 ท่านเท่านั้น
                                                 </h5>
                                                 <div class="action">
-                                                    <div class="btn btn-primary">
-                                                        รายละเอียดเพิ่มเติม
+                                                    <div class="btn-next">
+                                                        <strong> >> </strong>
                                                     </div>
                                                 </div>
                                             </div>
@@ -287,8 +287,8 @@
                                                     ที่ร่วมรายการ
                                                 </h5>
                                                 <div class="action">
-                                                    <div class="btn btn-primary">
-                                                        รายละเอียดเพิ่มเติม
+                                                    <div class="btn-next">
+                                                        <strong> >> </strong>
                                                     </div>
                                                 </div>
                                             </div>
@@ -319,8 +319,8 @@
                                                     ที่ร่วมรายการ
                                                 </h5>
                                                 <div class="action">
-                                                    <div class="btn btn-primary">
-                                                        รายละเอียดเพิ่มเติม
+                                                    <div class="btn-next">
+                                                        <strong> >> </strong>
                                                     </div>
                                                 </div>
                                             </div>
@@ -337,14 +337,40 @@
                                     <p>ใช้บัตรเครดิต</p>
                                     <h2><strong>AEON NEXT GEN</strong></h2>
                                     <h3><b>Platinum Card</b> </h3>
-                                    <h4>รับสิทธิพิเศษง่ายๆ จากมาสเตอร์การ์ดสำหรับผู้ถือบัตรเครดิตอิออน เน็กซ์เจน แพลทินัม</h4>
-                                    <h5>สิทธิประโยชน์ ณ โรงแรงชั้นนำและสนามบินทั่วโลก (Hotel & Airport Concierge Program)</h5>
+                                    <h4>รับสิทธิพิเศษง่ายๆ จากมาสเตอร์การ์ดสำหรับผู้ถือบัตรเครดิตอิออน เน็กซ์เจน
+                                        แพลทินัม</h4>
+                                    <h5>สิทธิประโยชน์ ณ โรงแรงชั้นนำและสนามบินทั่วโลก (Hotel & Airport Concierge
+                                        Program)</h5>
+                                    <div class="row mt-5 mb-5">
+                                        <div class="col-auto">
+                                            <button type="button" class="btn-next-gen"
+                                                class="btn-III"><strong>สิทธิประโยชน์จากมาสเตอร์การ์ดแพลทินัม</strong>
+                                            </button>
+                                        </div>
+                                        <div class="col-auto">
+                                            <button type="button" class="btn-aeonnext"><strong>ขั้นตอนการสมัคร
+                                                    และเอกสารประกอบการสมัคร</strong>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="aeon-thai-mobile">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="thai-mobile">
+                                    <img src="../assets/img/sectioni-04.png" alt=" ">
+                                </div>
+                                <!-- <div class="col-auto">
+                                            <button type="button" class="btn-aeonnext"><strong>ขั้นตอนการสมัคร</strong>
+                                            </button>
+                                        </div> -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
     </div>
 

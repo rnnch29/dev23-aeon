@@ -26,6 +26,17 @@ $(document).ready(function () {
         slidesToScroll:1,
     });
 
+    $('.how-to .slider').slick({
+        dots: true,
+        arrows: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll:1,
+    });
+
+
+
     $('.wg-benefits-list .slider').slick({
         dots: false,
         arrows: true,
@@ -33,6 +44,8 @@ $(document).ready(function () {
         speed: 300,
         slidesToShow: 1,
         slidesToScroll:1,
+        centerMode: true,
+        variableWidth: true,
     });
 
 

@@ -88,7 +88,7 @@ if (!empty($_SESSION[$valSiteManage . "core_session_id"])) {
     if ($_SESSION[$valSiteManage . "core_session_id"] >= 1) {
 	
         if (!is_dir("../../" . $valFolderCkEditor)) {
-            mkdir("../../" .$valFolderCkEditor, 0777);
+            mkdir("../../" .$valFolderCkEditor, 0777, true);
         }
     }
 }

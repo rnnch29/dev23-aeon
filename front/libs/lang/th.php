@@ -73,3 +73,5 @@ $lang["tit:success:save"] = "บันทึกข้อมูลเสร็จ
 $lang["tit:error"] = "เกิดข้อผิดพลาด";
 $lang["tit:error:save"] = "โปรดลองใหม่อีกครั้ง";
 $lang["btn:ok"] = "ตกลง";
+
+$lang["viewdetail"] = "ดูรายละเอียด";

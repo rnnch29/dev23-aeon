@@ -54,3 +54,5 @@ $lang["search:option"] = "All Search";
 
 
 $lang['member']['logout'] = "Log out";
+
+$lang["viewdetail"] = "View detail";

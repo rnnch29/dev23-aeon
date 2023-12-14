@@ -1,4 +1,5 @@
 <?php
+
 $lang['menu']['home'] = "HOME";
 $lang['menu']['about'] = "ABOUT";
 $lang['menu']['product'] = "PRODUCT";
@@ -53,3 +54,5 @@ $lang["search:option"] = "All Search";
 
 
 $lang['member']['logout'] = "Log out";
+
+$lang["viewdetail"] = "View detail";

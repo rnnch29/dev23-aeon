@@ -394,7 +394,7 @@
                             {$valuecallBnf.title}
                             </div>
                             <a href="" class="link" data-toggle="modal" data-target="#myModals{$valuecallBnf.id}">
-                                ดูรายละเอียด
+                                {$lang['viewdetail']}
                             </a>
                         </div>
                     </div>
@@ -466,21 +466,21 @@
     </div> *}
 
 
-    {* Section -IIII  *}
-    {foreach $callMobile as $keycallMobile => $valuecallMobile}
-        {$valuecallMobile.htmlfilename|fileinclude:"html":$valuecallMobile.masterkey|callHtml}
-    {/foreach}
-    {* <div class="section -IV">
+    {* Section -IV  *}
+    
+    <div class="section -IV">
         <a href="javascript:void(0);">
             <div class="thai-mobile">
-                <img src="{$template}/assets/img/thai-mobile.png" alt="">
+            {foreach $callMobile as $keycallMobile => $valuecallMobile}
+                {$valuecallMobile.htmlfilename|fileinclude:"html":$valuecallMobile.masterkey|callHtml}
+            {/foreach}
             </div>
         </a>
-    </div> *}
+    </div>
 
     <div class="section -V">
         <div class="container" style="padding: 300px 0px;">
-            <div class="how-to">
+            {* <div class="how-to">
                 <div class="row no-gutters">
                     <div class="col-auto">
                         <div class="slider">
@@ -499,12 +499,12 @@
 
                     </div>
                 </div>
-            </div>
+            </div> *}
         </div>
     </div>
 
     <div class="section -VI">
-
+        
     </div>
 
 </section>

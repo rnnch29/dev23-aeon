@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2023-12-12 09:18:42
+/* Smarty version 3.1.30, created on 2023-12-13 16:21:53
   from "C:\xampp\htdocs\dev23-aeon\front\template\default\inc\inc-header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_6577c3022c2d14_43685214',
+  'unifunc' => 'content_657977b1c7dc07_31554307',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '424ee4ca17ebaa874dcb7fef82aed787bb4d5c1e' => 
     array (
       0 => 'C:\\xampp\\htdocs\\dev23-aeon\\front\\template\\default\\inc\\inc-header.tpl',
-      1 => 1702347355,
+      1 => 1702459312,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6577c3022c2d14_43685214 (Smarty_Internal_Template $_smarty_tpl) {
+function content_657977b1c7dc07_31554307 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <header>
     <div class="nav-bar">
@@ -60,15 +60,17 @@ function content_6577c3022c2d14_43685214 (Smarty_Internal_Template $_smarty_tpl)
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img src="<?php echo $_smarty_tpl->tpl_vars['template']->value;?>
-/assets/img/icon/sss.png" alt="">
+/assets/img/icon/<?php if ($_smarty_tpl->tpl_vars['langon']->value == 'th') {?>sss<?php } else { ?>eee<?php }?>.png" alt="">
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="<?php echo $_smarty_tpl->tpl_vars['ul']->value;?>
+/lang/en">
                         <img src="<?php echo $_smarty_tpl->tpl_vars['template']->value;?>
 /assets/img/icon/eee.png" alt="">
                     </a>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="<?php echo $_smarty_tpl->tpl_vars['ul']->value;?>
+/lang/th">
                         <img src="<?php echo $_smarty_tpl->tpl_vars['template']->value;?>
 /assets/img/icon/sss.png" alt="">
                     </a>

@@ -41,6 +41,7 @@ function Seo($title = '', $desc = '', $keyword = '')
         $list['keyword'] = $infoSetting->fields['keywords'];
     }
     $smarty->assign("seo", $list);
+
 }
 
 

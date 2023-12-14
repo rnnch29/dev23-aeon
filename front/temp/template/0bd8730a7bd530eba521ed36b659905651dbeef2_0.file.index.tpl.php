@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2023-12-13 14:30:03
+/* Smarty version 3.1.30, created on 2023-12-14 16:30:21
   from "C:\xampp\htdocs\dev23-aeon\front\controller\script\home\template\index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_65795d7b2b4e96_11123467',
+  'unifunc' => 'content_657acb2d465657_95223832',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0bd8730a7bd530eba521ed36b659905651dbeef2' => 
     array (
       0 => 'C:\\xampp\\htdocs\\dev23-aeon\\front\\controller\\script\\home\\template\\index.tpl',
-      1 => 1702451040,
+      1 => 1702546220,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65795d7b2b4e96_11123467 (Smarty_Internal_Template $_smarty_tpl) {
+function content_657acb2d465657_95223832 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <section class="layout-container overflow-hidden">
     <?php if ($_smarty_tpl->tpl_vars['callTopGraphic']->value->_numOfRows >= 1) {?>
@@ -150,7 +150,8 @@ echo fileinclude($_smarty_tpl->tpl_vars['valuecallBnf']->value['pic'],"pictures"
                             </div>
                             <a href="" class="link" data-toggle="modal" data-target="#myModals<?php echo $_smarty_tpl->tpl_vars['valuecallBnf']->value['id'];?>
 ">
-                                ดูรายละเอียด
+                                <?php echo $_smarty_tpl->tpl_vars['lang']->value['viewdetail'];?>
+
                             </a>
                         </div>
                     </div>
@@ -220,44 +221,30 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
 
     
-    <?php
+    
+    <div class="section -IV">
+        <a href="javascript:void(0);">
+            <div class="thai-mobile">
+            <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['callMobile']->value, 'valuecallMobile', false, 'keycallMobile');
 if ($_from !== null) {
 foreach ($_from as $_smarty_tpl->tpl_vars['keycallMobile']->value => $_smarty_tpl->tpl_vars['valuecallMobile']->value) {
 ?>
-        <?php echo callHtml(fileinclude($_smarty_tpl->tpl_vars['valuecallMobile']->value['htmlfilename'],"html",$_smarty_tpl->tpl_vars['valuecallMobile']->value['masterkey']));?>
+                <?php echo callHtml(fileinclude($_smarty_tpl->tpl_vars['valuecallMobile']->value['htmlfilename'],"html",$_smarty_tpl->tpl_vars['valuecallMobile']->value['masterkey']));?>
 
-    <?php
+            <?php
 }
 }
 $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 ?>
 
-    
+            </div>
+        </a>
+    </div>
 
     <div class="section -V">
         <div class="container" style="padding: 300px 0px;">
-            <div class="how-to">
-                <div class="row no-gutters">
-                    <div class="col-auto">
-                        <div class="slider">
-                            <?php echo '<?php ';?>for ($i = 1; $i <= 7; $i++) { <?php echo '?>';?>
-                            <div class="item">
-                                <div class="cover">
-                                    <a href="">
-                                        <img src="<?php echo $_smarty_tpl->tpl_vars['template']->value;?>
-/assets/img/how-to.png" alt="aeontop">
-                                    </a>
-                                </div>
-                            </div>
-                            <?php echo '<?php ';?>} <?php echo '?>';?>
-                        </div>
-                    </div>
-                    <div class="col-auto">
-
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 

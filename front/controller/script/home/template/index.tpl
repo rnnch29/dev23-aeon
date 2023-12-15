@@ -480,7 +480,7 @@
 
     <div class="section -V">
         <div class="container" style="padding: 300px 0px;">
-            {* <div class="how-to">
+            <div class="how-to">
                 <div class="row no-gutters">
                     <div class="col-auto">
                         <div class="slider">
@@ -499,12 +499,18 @@
 
                     </div>
                 </div>
-            </div> *}
+            </div>
         </div>
     </div>
+
+
+
+    
 
     <div class="section -VI">
         
     </div>
+
+    
 
 </section>

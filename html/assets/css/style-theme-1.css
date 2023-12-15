@@ -505,7 +505,7 @@ border-right:
 }
 
 .font-platinum .text-step {
-    margin-top: 280px;
+    margin-top: 200px;
 }
 
 .card-header .title {
@@ -530,7 +530,7 @@ border-right:
 }
 
 .card-body {
-    border-top: 1px solid #000000;
+    border-top: 1px solid #B7B1B1;
 }
 
 .card-header:not(.collapsed) .rotate-icon {
@@ -540,12 +540,12 @@ border-right:
 
 .text-step h2 {
     margin-top: -10px;
-    font-size: 35px;
+    font-size: 40px;
 }
 
 .text-step h1 {
     margin-top: -10px;
-    font-size: 32px;
+    font-size: 46px;
     font-family: 'Good Times Rg', sans-serif;
     background: -webkit-linear-gradient(9deg, #7C73F3, #E177B3 80%);
     -webkit-background-clip: text;
@@ -557,10 +557,44 @@ border-right:
 }
 
 
-.accordion .material-symbols-outlined {
-    border: 1px solid #fff;
+.accordion-step .material-symbols-outlined {
+    border: 2px solid #fff;
     border-radius: 50%;
 }
+
+.accordion-step .card .card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion-step .card-body li {
+    font-size: 20px;
+    line-height: 1.6em;
+    list-style: none;
+}
+
+.accordion-step.step-one .card .card-body{
+    border-top: none;
+}
+
+.accordion-step .card-body li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.accordion-step .card .title {
+    font-size: 20px;
+}
+
+.font-platinum .nav-pills {
+    margin: 0 -10px;
+}
+
+.font-platinum .nav-pills li{
+    width: calc(100% / 3);
+    padding: 0 10px;
+}
+
+
 
 
 
@@ -568,4 +602,27 @@ border-right:
 
 .section.-VI{
     margin-right: 111px;
+}
+
+
+.nav-pills .nav-link{
+    border-radius: 10px;
+    padding: 20px 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #F98DE9;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer .layout-footer{
+    opacity: 1;
+    transform: translateZ(0);
+    bottom: 0;
+    background-color: #5E0F7A;
+    padding: 20px 100px;
+    z-index: 999;
+    width: 100%;
 }

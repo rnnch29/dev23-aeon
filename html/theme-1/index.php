@@ -951,7 +951,7 @@
                                         <div class="cover">
                                             <a href="">
                                                 <img class="mobile-collap" src="../assets/img/how-to.png" alt="aeontop"
-                                                    style="margin-top: 200px;">
+                                                    style="margin-top: 100px;">
                                             </a>
                                         </div>
                                     </div>
@@ -966,19 +966,22 @@
                                 </div>
                                 <ul class="nav nav-pills" role="tablist">
                                     <li class="nav-item">
-                                        <a class="nav-link active" data-toggle="pill" href="#home">เปิดใช้งานบัตร</a>
+                                        <a class="nav-link active-one" data-toggle="pill"
+                                            href="#home"><strong>เปิดใช้งานบัตร</strong></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" data-toggle="pill" href="#menu1">ดูข้อมูลบัตร</a>
+                                        <a class="nav-link active-two" data-toggle="pill"
+                                            href="#menu1"><strong>ดูข้อมูลบัตร</strong></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" data-toggle="pill" href="#menu2">สแกนจ่ายด้วย QR</a>
+                                        <a class="nav-link active-three" data-toggle="pill"
+                                            href="#menu2"><strong>สแกนจ่ายด้วย QR</strong></a>
                                     </li>
                                 </ul>
 
                                 <div class="tab-content">
-                                    <div id="home" class="container tab-pane active"><br>
-                                        <div class="accordion" id="accordionExample">
+                                    <div id="home" class="tab-pane active"><br>
+                                        <div class="accordion accordion-step" id="accordionExample">
                                             <div class="card">
                                                 <div class="card-header" data-toggle="collapse" data-target="#cl-01"
                                                     aria-expanded="true">
@@ -1042,27 +1045,47 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div id="menu1" class=" tab-pane fade">
+                                        <div class="accordion accordion-step step-one" id="accordionExample">
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <ul class="pl-0">
+                                                        <li>
+                                                            สมัครบัตรเครดิต ดิจิทัล อิออน เน็กซ์เจน ผ่านทางแอปพลิเคชัน
+                                                            AEON
+                                                            THAI
+                                                            MOBILE
+                                                            รับเครดิตเงินคืนต่อที่ 1 รับ 200 บาท
+                                                            เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ
+                                                            5,000
+                                                            บาท ขึ้นไป ต่อที่ 2 เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ 15,000
+                                                            บาท
+                                                            ขึ้นไป
+                                                            รับ
+                                                            Lazada e-Coupon 1,800 บาท*
+                                                        </li>
+                                                        <li>
 
-                                    <div id="menu1" class="container tab-pane fade"><br>
-                                        <p>สมัครบัตรเครดิต ดิจิทัล อิออน เน็กซ์เจน ผ่านทางแอปพลิเคชัน AEON THAI MOBILE
-                                            รับเครดิตเงินคืนต่อที่ 1 รับ 200 บาท เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ 5,000
-                                            บาท ขึ้นไป ต่อที่ 2 เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ 15,000 บาท ขึ้นไป รับ
-                                            Lazada e-Coupon 1,800 บาท*
-                                        </p><br>
-                                        <p>
-                                            รายละเอียด : คำนวณยอดใช้จ่ายจากบัตรหลัก ทั้งนี้ไม่นับรวมถึงการชำระค่าสินค้า
-                                            หรือบริการประเภทสินเชื่อเงินกู้, เช่าซื้อ,
-                                            การชำระค่าสินค้า/บริการทุกรายการในหมวดการซื้อหน่วยลงทุน/กองทุนรวม,
-                                            ยอดค่าเบี้ยประกันชีวิตควบการลงทุน Unit Linked (MCC Code 6211),
-                                            การแลกเปลี่ยนเงินตราต่างประเทศ (MCC Code 6051, 4829),
-                                            การเบิกถอนเงินสดล่วงหน้า, ดอกเบี้ย ค่าธรรมเนียมการใช้วงเงิน, ค่าปรับ,
-                                            ค่าธรรมเนียม, ภาษีอากรต่างๆ และรายการที่มีการยกเลิก หรือคืนสินค้า/บริการ
-                                        </p>
-
+                                                            รายละเอียด : คำนวณยอดใช้จ่ายจากบัตรหลัก
+                                                            ทั้งนี้ไม่นับรวมถึงการชำระค่าสินค้า
+                                                            หรือบริการประเภทสินเชื่อเงินกู้, เช่าซื้อ,
+                                                            การชำระค่าสินค้า/บริการทุกรายการในหมวดการซื้อหน่วยลงทุน/กองทุนรวม,
+                                                            ยอดค่าเบี้ยประกันชีวิตควบการลงทุน Unit Linked (MCC Code
+                                                            6211),
+                                                            การแลกเปลี่ยนเงินตราต่างประเทศ (MCC Code 6051, 4829),
+                                                            การเบิกถอนเงินสดล่วงหน้า, ดอกเบี้ย ค่าธรรมเนียมการใช้วงเงิน,
+                                                            ค่าปรับ,
+                                                            ค่าธรรมเนียม, ภาษีอากรต่างๆ และรายการที่มีการยกเลิก
+                                                            หรือคืนสินค้า/บริการ
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
 
-                                    <div id="menu2" class="container tab-pane fade"><br>
-                                        <div class="accordion" id="accordionExample">
+                                    <div id="menu2" class=" tab-pane fade">
+                                        <div class="accordion accordion-step" id="accordionExample">
                                             <div class="card">
                                                 <div class="card-header" data-toggle="collapse" data-target="#cl-03"
                                                     aria-expanded="true">
@@ -1102,31 +1125,37 @@
                                                 ประเภทมาสเตอร์การ์ดทุกประเภท ยกเว้น บัตรเครดิตเพื่อองค์กร</p>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
 
+                                </div>
+
+
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
+    </div>
 
-            <div class="section -VI">
-                <div class="container">
-                    <a href="https://www.aeon.co.th/ndid/index.html?af_xp=custom&source_caller=ui&pid=AEON%20%20%20%20%20
+    <div class="section -VI">
+        <div class="container">
+            <a href="https://www.aeon.co.th/ndid/index.html?af_xp=custom&source_caller=ui&pid=AEON%20%20%20%20%20
                         %20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%
                         20%20%20%20%20%20%20%20%20%20%20_Website&is_retargeting=true&shortlink=AEONWEB&_ga=2.146045876
                         .1836732061.1700817242%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%
                         20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-1866424965.1699003412&af_channel
                         =20MBWB01&af_reengagement_window=30d&c=AEON_Website" target="_blank">
-                        <div class="thai-mobile">
-                            <img src="../assets/img/footer001.png." alt="">
-                        </div>
-                    </a>
+                <div class="thai-mobile">
+                    <img src="../assets/img/footer001.png." alt="">
                 </div>
-            </div>
+            </a>
+        </div>
+    </div>
 
+    </section>
 
-        </section>
+    <?php include('../inc-theme-1/footer.php'); ?>
+
     </div>
     <?php include('../inc-theme-1/loadscript.php'); ?>
 </body>

@@ -953,9 +953,11 @@
                             </div>
 
                             <div class="col font-platinum">
-                                <h2>ขั้นตอนการเปิดใช้งานบัตรเครดิต</h2><br>
-                                <h1>AEON NEXTGEN PLATINUM</h1><br>
-                                <h2>ง่ายๆ เพียง 3 ขั้นตอน</h2><br>
+                                <div class="text-step">
+                                    <h2>ขั้นตอนการเปิดใช้งานบัตรเครดิต</h2><br>
+                                    <h1>AEON NEXTGEN PLATINUM</h1><br>
+                                    <h2>ง่ายๆ เพียง 3 ขั้นตอน</h2><br>
+                                </div>
                                 <ul class="nav nav-pills" role="tablist">
                                     <li class="nav-item">
                                         <a class="nav-link active" data-toggle="pill" href="#home">เปิดใช้งานบัตร</a>
@@ -980,7 +982,30 @@
                                                 </div>
                                                 <div id="cl-01" class="collapse show" data-parent="#accordionExample">
                                                     <div class="card-body">
-                                                        Anim pariatur cliche reprehenderit,
+                                                        <ol>
+                                                            <li>
+                                                                เลือกสมัครบัตร AEON NextGen
+                                                            </li>
+                                                            <li>
+                                                                กรอกข้อมูลตามหัวข้อ
+                                                            </li>
+                                                            <li>
+                                                                แนบไฟล์เอกสาร<br>
+
+                                                                - บัตรประชาชน ตัวจริง <br>
+
+                                                                - สลิปเงินเดือน (ไม่เกิน 3 เดือน)
+                                                                (ยกเว้นอาชีพอิสระ)<br>
+
+                                                                - สำเนาบัญชีธนาคารย้อนหลัง 180 วัน
+
+                                                            </li>
+                                                            <li>
+                                                                ตรวจสอบข้อมูล
+                                                                และกดยืนยันข้อมูล
+                                                                การสมัครผ่านรหัส PIN 6 หลัก
+                                                            </li>
+                                                        </ol>
                                                     </div>
                                                 </div>
                                             </div>
@@ -993,7 +1018,21 @@
                                                 </div>
                                                 <div id="cl-02" class="collapse" data-parent="#accordionExample">
                                                     <div class="card-body">
-                                                        Anim pariatur cliche reprehenderit
+                                                        <ol>
+                                                            <li>
+                                                                กด "การใช้บัตร”
+                                                            </li>
+                                                            <li>
+                                                                ใส่รหัส PIN 6 หลัก เพื่อ Login
+                                                            </li>
+                                                            <li>
+                                                                กดยอมรับและกรอกอีเมลสำหรับรับใบแจ้ง
+                                                                การชำระเงินอิเล็กทรอนิกส์ (e-statement)
+                                                            </li>
+                                                            <li>
+                                                                บัตรสามารถใช้งานได้
+                                                            </li>
+                                                        </ol>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1023,16 +1062,41 @@
                                             <div class="card">
                                                 <div class="card-header" data-toggle="collapse" data-target="#cl-03"
                                                     aria-expanded="true">
-                                                    <span class="title">Collapsible Group Item #1 </span>
+                                                    <span class="title">การสแกนจ่าย Scan-To-Pay</span>
                                                     <span class="accicon">
                                                         <i class="fas fa-angle-down rotate-icon"></i></span>
                                                 </div>
                                                 <div id="cl-03" class="collapse show" data-parent="#accordionExample">
                                                     <div class="card-body">
-                                                        Anim pariatur cliche reprehenderit,
+                                                        <ol>
+                                                            <li>
+                                                                Select "Scan" menu
+                                                            </li>
+                                                            <li>
+                                                                Enter PIN to login
+                                                            </li>
+                                                            <li>
+                                                                Scan QR Code
+                                                            </li>
+                                                            <li>
+                                                                Select card + review payment details
+                                                            </li>
+                                                            <li>
+                                                                Review payment
+                                                            </li>
+                                                            <li>
+                                                                Enter PIN to confirm
+                                                            </li>
+                                                            <li>
+                                                                E-Slip
+                                                            </li>
+                                                        </ol>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div><br>
+                                            <p>บัตรเครดิต AEON ประเภทไหนสามารถชำระผ่าน Scan-To-Pay ได้
+                                                บัตรเครดิตดิจิทัลอิออนเน็กซ์เจน และบัตรเครดิตอิออน
+                                                ประเภทมาสเตอร์การ์ดทุกประเภท ยกเว้น บัตรเครดิตเพื่อองค์กร</p>
                                         </div>
                                     </div>
                                 </div>

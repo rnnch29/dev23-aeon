@@ -928,16 +928,21 @@
 
             <div class="section -IV">
                 <div class="container">
-                    <a href="">
+                    <a href="https://www.aeon.co.th/ndid/index.html?af_xp=custom&source_caller=ui&pid=AEON%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%2
+                        0%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+                        _Website&is_retargeting=true&shortlink=AEONWEB&_ga=2.146045876.1836732061.1700817242%20%20%20%20%
+                        20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
+                        %20%20%20%20%20%20%20%20%20%20%20-1866424965.1699003412&af_channel=20MBWB01&af_reengagement_window=30d&c=AEON_Website"
+                        target="_blank">
                         <div class="thai-mobile">
-                            <img src="../assets/img/thai-mobile.png." alt="">
+                            <img src="../assets/img/thai-mobile01.png." alt="">
                         </div>
                     </a>
                 </div>
             </div>
 
             <div class="section -V">
-                <div class="container" style="margin: 250px 380px;">
+                <div class="container">
                     <div class="how-to">
                         <div class="row no-gutters">
                             <div class="col-auto">
@@ -945,7 +950,8 @@
                                     <div class="item">
                                         <div class="cover">
                                             <a href="">
-                                                <img src="../assets/img/how-to.png" alt="aeontop">
+                                                <img class="mobile-collap" src="../assets/img/how-to.png" alt="aeontop"
+                                                    style="margin-top: 200px;">
                                             </a>
                                         </div>
                                     </div>
@@ -977,8 +983,7 @@
                                                 <div class="card-header" data-toggle="collapse" data-target="#cl-01"
                                                     aria-expanded="true">
                                                     <span class="title">ขั้นตอนการสมัครบัตร </span>
-                                                    <span class="accicon">
-                                                        <i class="fas fa-angle-down rotate-icon"></i></span>
+                                                    <span class="material-symbols-outlined">expand_more</span>
                                                 </div>
                                                 <div id="cl-01" class="collapse show" data-parent="#accordionExample">
                                                     <div class="card-body">
@@ -1013,8 +1018,7 @@
                                                 <div class="card-header collapsed" data-toggle="collapse"
                                                     data-target="#cl-02" aria-expanded="false" aria-controls="cl-02">
                                                     <span class="title">ขั้นตอนการเปิดใช้งานบัตร</span>
-                                                    <span class="accicon">
-                                                        <i class="fas fa-angle-down rotate-icon"></i></span>
+                                                    <span class="material-symbols-outlined">expand_more</span>
                                                 </div>
                                                 <div id="cl-02" class="collapse" data-parent="#accordionExample">
                                                     <div class="card-body">
@@ -1063,8 +1067,7 @@
                                                 <div class="card-header" data-toggle="collapse" data-target="#cl-03"
                                                     aria-expanded="true">
                                                     <span class="title">การสแกนจ่าย Scan-To-Pay</span>
-                                                    <span class="accicon">
-                                                        <i class="fas fa-angle-down rotate-icon"></i></span>
+                                                    <span class="material-symbols-outlined">expand_more</span>
                                                 </div>
                                                 <div id="cl-03" class="collapse show" data-parent="#accordionExample">
                                                     <div class="card-body">
@@ -1108,7 +1111,18 @@
             </div>
 
             <div class="section -VI">
-
+                <div class="container">
+                    <a href="https://www.aeon.co.th/ndid/index.html?af_xp=custom&source_caller=ui&pid=AEON%20%20%20%20%20
+                        %20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%
+                        20%20%20%20%20%20%20%20%20%20%20_Website&is_retargeting=true&shortlink=AEONWEB&_ga=2.146045876
+                        .1836732061.1700817242%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%
+                        20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-1866424965.1699003412&af_channel
+                        =20MBWB01&af_reengagement_window=30d&c=AEON_Website" target="_blank">
+                        <div class="thai-mobile">
+                            <img src="../assets/img/footer001.png." alt="">
+                        </div>
+                    </a>
+                </div>
             </div>
 
 

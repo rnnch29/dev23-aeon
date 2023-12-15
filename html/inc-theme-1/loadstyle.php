@@ -12,8 +12,12 @@
 <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600&display=swap"
+    rel="stylesheet">
 <link href="https://fonts.cdnfonts.com/css/good-times-2" rel="stylesheet">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 <!-- plugin -->
 <link rel="stylesheet" href="../assets/css/slick.css">

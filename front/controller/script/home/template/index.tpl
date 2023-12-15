@@ -467,16 +467,16 @@
 
 
     {* Section -IV  *}
-    
-    <div class="section -IV">
+    {foreach $callMobile as $keycallMobile => $valuecallMobile}
+        {$valuecallMobile.htmlfilename|fileinclude:"html":$valuecallMobile.masterkey|callHtml}
+    {/foreach}
+    {* <div class="section -IV">
         <a href="javascript:void(0);">
-            <div class="thai-mobile">
-            {foreach $callMobile as $keycallMobile => $valuecallMobile}
-                {$valuecallMobile.htmlfilename|fileinclude:"html":$valuecallMobile.masterkey|callHtml}
-            {/foreach}
+            <div class="thai-mobile">          
+            <img src="../assets/img/thai-mobile.png." alt="">
             </div>
         </a>
-    </div>
+    </div> *}
 
     <div class="section -V">
         <div class="container" style="padding: 300px 0px;">

@@ -1,4 +1,11 @@
 /* Breakpoint  */
+@media (min-width: 1200px) {
+	.container{max-width: inherit; width: 1210px;}
+}
+@media (min-width: 1601px) {
+	.container{max-width: inherit; width: 1440px;}
+}
+
 
 @media(max-width:1440px){
     header{

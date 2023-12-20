@@ -17,6 +17,15 @@ $(document).ready(function () {
         slidesToScroll:1,
     });
 
+    $('.how-to .mobile-slider .slider').slick({
+        dots: true,
+        arrows: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll:1,
+    });
+
     $('.block-platinum-card .slider').slick({
         dots: true,
         arrows: false,

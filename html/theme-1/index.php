@@ -945,189 +945,258 @@
                 <div class="container">
                     <div class="how-to">
                         <div class="row no-gutters">
-                            <div class="col-auto">
-                                <div class="slider">
-                                    <div class="item">
-                                        <div class="cover">
-                                            <a href="">
-                                                <img class="mobile-collap" src="../assets/img/how-to.png" alt="aeontop"
-                                                    style="margin-top: 100px;">
-                                            </a>
+
+                            <div class="col-lg-auto mobile-slider">
+                                <div class="wrapper-mobile">
+                                    <div class="inner-wrapper">
+                                        <div class="slider">
+                                            <div>
+                                                <div class="item">
+                                                    <figure class="contain">
+                                                        <img class="mobile-collap"
+                                                            src="../assets/img/register/mobile-slide1.png"
+                                                            alt="mobile-slide1">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="item">
+                                                    <figure class="contain">
+                                                        <img class="mobile-collap"
+                                                            src="../assets/img/register/mobile-slide2.png"
+                                                            alt="mobile-slide1">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="item">
+                                                    <figure class="contain">
+                                                        <img class="mobile-collap"
+                                                            src="../assets/img/register/mobile-slide3.png"
+                                                            alt="mobile-slide1">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="item">
+                                                    <figure class="contain">
+                                                        <img class="mobile-collap"
+                                                            src="../assets/img/register/mobile-slide4.png"
+                                                            alt="mobile-slide1">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="item">
+                                                    <figure class="contain">
+                                                        <img class="mobile-collap"
+                                                            src="../assets/img/register/mobile-slide5.png"
+                                                            alt="mobile-slide1">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="item">
+                                                    <figure class="contain">
+                                                        <img class="mobile-collap"
+                                                            src="../assets/img/register/mobile-slide6.png"
+                                                            alt="mobile-slide1">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="item">
+                                                    <figure class="contain">
+                                                        <img class="mobile-collap"
+                                                            src="../assets/img/register/mobile-slide7.png"
+                                                            alt="mobile-slide1">
+                                                    </figure>
+                                                </div>
+                                            </div>
+                                            
                                         </div>
+                                        <div class="mobile-frame"></div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col font-platinum">
-                                <div class="text-step">
-                                    <h2>ขั้นตอนการเปิดใช้งานบัตรเครดิต</h2><br>
-                                    <h1>AEON NEXTGEN PLATINUM</h1><br>
-                                    <h2>ง่ายๆ เพียง 3 ขั้นตอน</h2><br>
-                                </div>
-                                <ul class="nav nav-pills" role="tablist">
-                                    <li class="nav-item">
-                                        <a class="nav-link active-one" data-toggle="pill"
-                                            href="#home"><strong>เปิดใช้งานบัตร</strong></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active-two" data-toggle="pill"
-                                            href="#menu1"><strong>ดูข้อมูลบัตร</strong></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link active-three" data-toggle="pill"
-                                            href="#menu2"><strong>สแกนจ่ายด้วย QR</strong></a>
-                                    </li>
-                                </ul>
+                            <div class="col-lg">
+                                <div class="font-platinum">
+                                    <div class="text-step">
+                                        <h2>ขั้นตอนการเปิดใช้งานบัตรเครดิต</h2><br>
+                                        <h1>AEON NEXTGEN PLATINUM</h1><br>
+                                        <h2>ง่ายๆ เพียง 3 ขั้นตอน</h2><br>
+                                    </div>
+                                    <ul class="nav nav-pills" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link active-one" data-toggle="pill"
+                                                href="#home"><strong>เปิดใช้งานบัตร</strong></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active-two" data-toggle="pill"
+                                                href="#menu1"><strong>ดูข้อมูลบัตร</strong></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active-three" data-toggle="pill"
+                                                href="#menu2"><strong>สแกนจ่ายด้วย QR</strong></a>
+                                        </li>
+                                    </ul>
 
-                                <div class="tab-content">
-                                    <div id="home" class="tab-pane active"><br>
-                                        <div class="accordion accordion-step" id="accordionExample">
-                                            <div class="card">
-                                                <div class="card-header" data-toggle="collapse" data-target="#cl-01"
-                                                    aria-expanded="true">
-                                                    <span class="title">ขั้นตอนการสมัครบัตร </span>
-                                                    <span class="material-symbols-outlined">expand_more</span>
-                                                </div>
-                                                <div id="cl-01" class="collapse show" data-parent="#accordionExample">
-                                                    <div class="card-body">
-                                                        <ol>
-                                                            <li>
-                                                                เลือกสมัครบัตร AEON NextGen
-                                                            </li>
-                                                            <li>
-                                                                กรอกข้อมูลตามหัวข้อ
-                                                            </li>
-                                                            <li>
-                                                                แนบไฟล์เอกสาร<br>
+                                    <div class="tab-content">
+                                        <div id="home" class="tab-pane active"><br>
+                                            <div class="accordion accordion-step" id="accordionExample">
+                                                <div class="card">
+                                                    <div class="card-header" data-toggle="collapse" data-target="#cl-01"
+                                                        aria-expanded="true">
+                                                        <span class="title">ขั้นตอนการสมัครบัตร </span>
+                                                        <span class="material-symbols-outlined">expand_more</span>
+                                                    </div>
+                                                    <div id="cl-01" class="collapse show"
+                                                        data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <ol>
+                                                                <li>
+                                                                    เลือกสมัครบัตร AEON NextGen
+                                                                </li>
+                                                                <li>
+                                                                    กรอกข้อมูลตามหัวข้อ
+                                                                </li>
+                                                                <li>
+                                                                    แนบไฟล์เอกสาร<br>
 
-                                                                - บัตรประชาชน ตัวจริง <br>
+                                                                    - บัตรประชาชน ตัวจริง <br>
 
-                                                                - สลิปเงินเดือน (ไม่เกิน 3 เดือน)
-                                                                (ยกเว้นอาชีพอิสระ)<br>
+                                                                    - สลิปเงินเดือน (ไม่เกิน 3 เดือน)
+                                                                    (ยกเว้นอาชีพอิสระ)<br>
 
-                                                                - สำเนาบัญชีธนาคารย้อนหลัง 180 วัน
+                                                                    - สำเนาบัญชีธนาคารย้อนหลัง 180 วัน
 
-                                                            </li>
-                                                            <li>
-                                                                ตรวจสอบข้อมูล
-                                                                และกดยืนยันข้อมูล
-                                                                การสมัครผ่านรหัส PIN 6 หลัก
-                                                            </li>
-                                                        </ol>
+                                                                </li>
+                                                                <li>
+                                                                    ตรวจสอบข้อมูล
+                                                                    และกดยืนยันข้อมูล
+                                                                    การสมัครผ่านรหัส PIN 6 หลัก
+                                                                </li>
+                                                            </ol>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </div>
-                                            <div class="card">
-                                                <div class="card-header collapsed" data-toggle="collapse"
-                                                    data-target="#cl-02" aria-expanded="false" aria-controls="cl-02">
-                                                    <span class="title">ขั้นตอนการเปิดใช้งานบัตร</span>
-                                                    <span class="material-symbols-outlined">expand_more</span>
-                                                </div>
-                                                <div id="cl-02" class="collapse" data-parent="#accordionExample">
-                                                    <div class="card-body">
-                                                        <ol>
-                                                            <li>
-                                                                กด "การใช้บัตร”
-                                                            </li>
-                                                            <li>
-                                                                ใส่รหัส PIN 6 หลัก เพื่อ Login
-                                                            </li>
-                                                            <li>
-                                                                กดยอมรับและกรอกอีเมลสำหรับรับใบแจ้ง
-                                                                การชำระเงินอิเล็กทรอนิกส์ (e-statement)
-                                                            </li>
-                                                            <li>
-                                                                บัตรสามารถใช้งานได้
-                                                            </li>
-                                                        </ol>
+                                                <div class="card">
+                                                    <div class="card-header collapsed" data-toggle="collapse"
+                                                        data-target="#cl-02" aria-expanded="false"
+                                                        aria-controls="cl-02">
+                                                        <span class="title">ขั้นตอนการเปิดใช้งานบัตร</span>
+                                                        <span class="material-symbols-outlined">expand_more</span>
+                                                    </div>
+                                                    <div id="cl-02" class="collapse" data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <ol>
+                                                                <li>
+                                                                    กด "การใช้บัตร”
+                                                                </li>
+                                                                <li>
+                                                                    ใส่รหัส PIN 6 หลัก เพื่อ Login
+                                                                </li>
+                                                                <li>
+                                                                    กดยอมรับและกรอกอีเมลสำหรับรับใบแจ้ง
+                                                                    การชำระเงินอิเล็กทรอนิกส์ (e-statement)
+                                                                </li>
+                                                                <li>
+                                                                    บัตรสามารถใช้งานได้
+                                                                </li>
+                                                            </ol>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div id="menu1" class=" tab-pane fade">
-                                        <div class="accordion accordion-step step-one" id="accordionExample">
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <ul class="pl-0">
-                                                        <li>
-                                                            สมัครบัตรเครดิต ดิจิทัล อิออน เน็กซ์เจน ผ่านทางแอปพลิเคชัน
-                                                            AEON
-                                                            THAI
-                                                            MOBILE
-                                                            รับเครดิตเงินคืนต่อที่ 1 รับ 200 บาท
-                                                            เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ
-                                                            5,000
-                                                            บาท ขึ้นไป ต่อที่ 2 เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ 15,000
-                                                            บาท
-                                                            ขึ้นไป
-                                                            รับ
-                                                            Lazada e-Coupon 1,800 บาท*
-                                                        </li>
-                                                        <li>
+                                        <div id="menu1" class=" tab-pane fade">
+                                            <div class="accordion accordion-step step-one" id="accordionExample">
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <ul class="pl-0">
+                                                            <li>
+                                                                สมัครบัตรเครดิต ดิจิทัล อิออน เน็กซ์เจน
+                                                                ผ่านทางแอปพลิเคชัน
+                                                                AEON
+                                                                THAI
+                                                                MOBILE
+                                                                รับเครดิตเงินคืนต่อที่ 1 รับ 200 บาท
+                                                                เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ
+                                                                5,000
+                                                                บาท ขึ้นไป ต่อที่ 2 เมื่อมียอดใช้จ่ายสะสมผ่านบัตรครบ
+                                                                15,000
+                                                                บาท
+                                                                ขึ้นไป
+                                                                รับ
+                                                                Lazada e-Coupon 1,800 บาท*
+                                                            </li>
+                                                            <li>
 
-                                                            รายละเอียด : คำนวณยอดใช้จ่ายจากบัตรหลัก
-                                                            ทั้งนี้ไม่นับรวมถึงการชำระค่าสินค้า
-                                                            หรือบริการประเภทสินเชื่อเงินกู้, เช่าซื้อ,
-                                                            การชำระค่าสินค้า/บริการทุกรายการในหมวดการซื้อหน่วยลงทุน/กองทุนรวม,
-                                                            ยอดค่าเบี้ยประกันชีวิตควบการลงทุน Unit Linked (MCC Code
-                                                            6211),
-                                                            การแลกเปลี่ยนเงินตราต่างประเทศ (MCC Code 6051, 4829),
-                                                            การเบิกถอนเงินสดล่วงหน้า, ดอกเบี้ย ค่าธรรมเนียมการใช้วงเงิน,
-                                                            ค่าปรับ,
-                                                            ค่าธรรมเนียม, ภาษีอากรต่างๆ และรายการที่มีการยกเลิก
-                                                            หรือคืนสินค้า/บริการ
-                                                        </li>
-                                                    </ul>
+                                                                รายละเอียด : คำนวณยอดใช้จ่ายจากบัตรหลัก
+                                                                ทั้งนี้ไม่นับรวมถึงการชำระค่าสินค้า
+                                                                หรือบริการประเภทสินเชื่อเงินกู้, เช่าซื้อ,
+                                                                การชำระค่าสินค้า/บริการทุกรายการในหมวดการซื้อหน่วยลงทุน/กองทุนรวม,
+                                                                ยอดค่าเบี้ยประกันชีวิตควบการลงทุน Unit Linked (MCC Code
+                                                                6211),
+                                                                การแลกเปลี่ยนเงินตราต่างประเทศ (MCC Code 6051, 4829),
+                                                                การเบิกถอนเงินสดล่วงหน้า, ดอกเบี้ย
+                                                                ค่าธรรมเนียมการใช้วงเงิน,
+                                                                ค่าปรับ,
+                                                                ค่าธรรมเนียม, ภาษีอากรต่างๆ และรายการที่มีการยกเลิก
+                                                                หรือคืนสินค้า/บริการ
+                                                            </li>
+                                                        </ul>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div id="menu2" class=" tab-pane fade">
-                                        <div class="accordion accordion-step" id="accordionExample">
-                                            <div class="card">
-                                                <div class="card-header" data-toggle="collapse" data-target="#cl-03"
-                                                    aria-expanded="true">
-                                                    <span class="title">การสแกนจ่าย Scan-To-Pay</span>
-                                                    <span class="material-symbols-outlined">expand_more</span>
-                                                </div>
-                                                <div id="cl-03" class="collapse show" data-parent="#accordionExample">
-                                                    <div class="card-body">
-                                                        <ol>
-                                                            <li>
-                                                                Select "Scan" menu
-                                                            </li>
-                                                            <li>
-                                                                Enter PIN to login
-                                                            </li>
-                                                            <li>
-                                                                Scan QR Code
-                                                            </li>
-                                                            <li>
-                                                                Select card + review payment details
-                                                            </li>
-                                                            <li>
-                                                                Review payment
-                                                            </li>
-                                                            <li>
-                                                                Enter PIN to confirm
-                                                            </li>
-                                                            <li>
-                                                                E-Slip
-                                                            </li>
-                                                        </ol>
+                                        <div id="menu2" class=" tab-pane fade">
+                                            <div class="accordion accordion-step" id="accordionExample">
+                                                <div class="card">
+                                                    <div class="card-header" data-toggle="collapse" data-target="#cl-03"
+                                                        aria-expanded="true">
+                                                        <span class="title">การสแกนจ่าย Scan-To-Pay</span>
+                                                        <span class="material-symbols-outlined">expand_more</span>
                                                     </div>
-                                                </div>
-                                            </div><br>
-                                            <p>บัตรเครดิต AEON ประเภทไหนสามารถชำระผ่าน Scan-To-Pay ได้
+                                                    <div id="cl-03" class="collapse show"
+                                                        data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <ol>
+                                                                <li>
+                                                                    Select "Scan" menu
+                                                                </li>
+                                                                <li>
+                                                                    Enter PIN to login
+                                                                </li>
+                                                                <li>
+                                                                    Scan QR Code
+                                                                </li>
+                                                                <li>
+                                                                    Select card + review payment details
+                                                                </li>
+                                                                <li>
+                                                                    Review payment
+                                                                </li>
+                                                                <li>
+                                                                    Enter PIN to confirm
+                                                                </li>
+                                                                <li>
+                                                                    E-Slip
+                                                                </li>
+                                                            </ol>
+                                                        </div>
+                                                    </div>
+                                                </div><br>
+                                                <!-- <p>บัตรเครดิต AEON ประเภทไหนสามารถชำระผ่าน Scan-To-Pay ได้
                                                 บัตรเครดิตดิจิทัลอิออนเน็กซ์เจน และบัตรเครดิตอิออน
-                                                ประเภทมาสเตอร์การ์ดทุกประเภท ยกเว้น บัตรเครดิตเพื่อองค์กร</p>
+                                                ประเภทมาสเตอร์การ์ดทุกประเภท ยกเว้น บัตรเครดิตเพื่อองค์กร</p> -->
+                                            </div>
                                         </div>
+
                                     </div>
-
                                 </div>
-
 
                             </div>
                         </div>
@@ -1135,28 +1204,26 @@
                     </div>
                 </div>
             </div>
-    </div>
 
-    <div class="section -VI">
-        <div class="container">
-            <a href="https://www.aeon.co.th/ndid/index.html?af_xp=custom&source_caller=ui&pid=AEON%20%20%20%20%20
-                        %20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%
-                        20%20%20%20%20%20%20%20%20%20%20_Website&is_retargeting=true&shortlink=AEONWEB&_ga=2.146045876
-                        .1836732061.1700817242%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%
-                        20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-1866424965.1699003412&af_channel
-                        =20MBWB01&af_reengagement_window=30d&c=AEON_Website" target="_blank">
-                <div class="thai-mobile">
-                    <img src="../assets/img/footer001.png." alt="">
+            <div class="section -VI">
+                <div class="container">
+                    <a href="https://www.aeon.co.th/ndid/index.html?af_xp=custom&source_caller=ui&pid=AEON%20%20%20%20%20
+                                %20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%
+                                20%20%20%20%20%20%20%20%20%20%20_Website&is_retargeting=true&shortlink=AEONWEB&_ga=2.146045876
+                                .1836732061.1700817242%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%
+                                20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-1866424965.1699003412&af_channel
+                                =20MBWB01&af_reengagement_window=30d&c=AEON_Website" target="_blank">
+                        <div class="thai-mobile">
+                            <img src="../assets/img/footer001.png." alt="">
+                        </div>
+                    </a>
                 </div>
-            </a>
-        </div>
+            </div>
+        </section>
+
+        <?php include('../inc-theme-1/footer.php'); ?>
     </div>
 
-    </section>
-
-    <?php include('../inc-theme-1/footer.php'); ?>
-
-    </div>
     <?php include('../inc-theme-1/loadscript.php'); ?>
 </body>
 

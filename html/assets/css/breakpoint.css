@@ -11,4 +11,11 @@
     header{
         padding: 50px;
     }
-} 
+}
+
+@media(max-width:1440px){
+    footer{
+        padding: 50px;
+    }
+}
+

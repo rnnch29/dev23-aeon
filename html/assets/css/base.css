@@ -84,5 +84,25 @@ body {
     object-position: center;
 }
 
-/* เเก้14-12 ของพี่ดูจากพี่โอม */
+
+.text-limit {
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    line-height: 1.4em;
+    min-height: 1.4em;
+    -webkit-line-clamp: 1;
+}
+
+.text-limit.-x2 {
+    min-height: 2.8em;
+    -webkit-line-clamp: 2;
+}
+
+.text-limit.-x3 {
+    min-height: 4.2em;
+    -webkit-line-clamp: 3;
+}
 

@@ -81,8 +81,8 @@ header .link img {
 }
 
 .hero-banner .slick-dots {
-    bottom: -35px;
-    position: static;
+    bottom: 5px;
+    /* position: static; */
 }
 
 .hero-banner .slick-dots li button {
@@ -164,9 +164,8 @@ border-right:
     font-size: 60px;
 }
 
-.block-platinum-card img {
-    width: 100%;
-    margin-top: 300px;
+.block-platinum-card .two-card img {
+    width: 885px;
 }
 
 
@@ -213,15 +212,23 @@ border-right:
     height: 500px;
 } */
 
+
+.block-benefits-slider .item .icon {
+    filter: drop-shadow(0 0 3.75rem #cc1212);
+}
 .block-benefits-slider .item img {
     margin: auto;
+    width: 100%;
 }
 
+
+
 .block-benefits-slider .item .title {
-    margin-bottom: 30px;
     font-size: 20px;
     text-align: center;
 }
+
+
 
 .block-benefits-slider .item .desc {
     text-align: center;
@@ -247,33 +254,58 @@ border-right:
 }
 
 .graphics .obj-I {
-    width: 224px;
-    top: 52%;
-    right: 132%;
-    margin-right: -960px;
+    top: -410px;
+    left: 150px;
 }
 
 .graphics .obj-II {
-    /* position: absolute; */
-    width: 222px;
-    top: -140px;
-    right: 50%;
-    margin-right: -960px;
+    top: -670px;
+    left: 1670px;
 }
 
 .graphics .obj-III {
-    width: 222px;
-    top: 63%;
-    right: 139%;
-    margin-right: -958px;
+    top: -420px;
+    left: 0;
 }
 
 .graphics .obj-IV {
-    /* filter: brightness(60%); */
-    width: 222px;
-    top: -355px;
-    right: 62%;
-    margin-right: -958px;
+    top: -900px;
+    left: 1460px;
+}
+
+.graphics .obj-V{
+    top: 122px;
+    left: 1710px;
+}
+
+.graphics .obj-mobile-I{
+    top: -240px;
+    left: 1330px;
+}
+
+.graphics .obj-mobile-II{
+    top: 311px;
+    left: -360px;
+}
+
+.graphics .obj-mobile-III{
+    top: 1000px;
+    left: 1830px;
+}
+
+.graphics .obj-mobile-IV{
+    top: 100px;
+    left: -30px;
+}
+
+.graphics .obj-mobile-V{
+    top: 80px;
+    left: 1650px;
+}
+
+.graphics .obj-mobile-VI{
+    top: 680px;
+    left: 10px;
 }
 
 
@@ -466,9 +498,6 @@ border-right:
 
 /*section-IV THAI-Mobile */
 
-.section.-IV {
-    margin-right: 300px;
-}
 
 .section.-IV .thai-mobile {
     position: relative;
@@ -476,14 +505,14 @@ border-right:
 }
 
 .thai-mobile img {
-    width: 115%;
+    width: 100%;
 }
 
 /* กราฟฟิค */
-.section.-I .graphics {
-    position: relative;
-    top: -555px;
+.graphics {
+    position: absolute;
 }
+
 
 
 /* section IV */
@@ -587,7 +616,7 @@ border-right:
 
 .nav-pills .nav-link{
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 20px 10px;
     font-size: 20px;
     color: #fff;
     background-color: #F98DE9;
@@ -676,37 +705,56 @@ border-right:
 
 /* arrow */
 
-.slick-arrow:hover {
-    background-color: #ff0000; 
-    color: #fff; 
+.inner-wrapper .slick-arrow:hover {
+    background: -webkit-linear-gradient(9deg, #129ADF, #F98DE9 65%);
+    color: #000000; 
 }
 
-.slick-arrow{
+.inner-wrapper .slick-arrow{
     position: absolute;
-    color: #333;
-    background-color: transparent;
-    border: 1px solid #333;
+    color: transparent;
+    background-color: #F98DE9;
+    border-radius: 50%;
+    padding: 30px;
+    font-family: 'feather' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
 }
 
-.slick-arrow .slick-prev{
-    left: 75px;
+.inner-wrapper .slick-next::before{
+    content: "\e930";
+    color: #fff;
+    font-size: 45px;
 }
 
-.slick-arrow .slick-next {
-    right: -75px;
+.inner-wrapper .slick-prev::before{
+    content: "\e92f";
+    color: #fff;
+    font-size: 45px;
+}
+
+
+.inner-wrapper .slick-prev{
+    left: -100px;
+}
+
+.inner-wrapper .slick-next {
+    right: -100px;
 }
 
 
 
 
 /* section VI */
-
-.section.-VI{
-    margin-right: 111px;
-}
-
-
-
 
 
 /* footer */
@@ -715,8 +763,8 @@ border-right:
     opacity: 1;
     transform: translateZ(0);
     bottom: 0;
-    background-color: #5E0F7A;
-    padding: 20px 100px;
+    background: -webkit-linear-gradient(300deg, #F98DE9 ,#129ADF 150%);
+    padding: 0;
     z-index: 999;
     width: 100%;
 }
@@ -732,3 +780,37 @@ border-right:
     text-align: center;
     margin: 0;
 }
+
+
+/* section */
+
+.section.-I{
+    position: relative;
+    margin-top: 100px;
+}
+
+.section.-II{
+    position: relative;
+}
+
+.section.-II{
+    position: relative;
+}
+
+.section.-III{
+    position: relative;
+}
+
+.section.-IV{
+    position: relative;
+}
+
+.section.-V{
+    position: relative;
+}
+
+.section.-VI{
+    position: relative;
+    margin-top: 150px;
+}
+

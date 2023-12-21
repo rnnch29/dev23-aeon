@@ -91,7 +91,9 @@
                             </div>
                         </div>
                         <div class="col-auto">
-                            <img src="../assets/img/next-gen-card-4.png" alt="next-gen-card-4">
+                            <div class="two-card">
+                                <img src="../assets/img/next-gen-card-4.png" alt="next-gen-card-4">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -333,6 +335,11 @@
             </div>
 
             <div class="section -II">
+                <div class="graphics">
+                    <div class="obj-V">
+                        <img src="../assets/img/icon/dimon-benefits.png" alt="dimon-benefits">
+                    </div>
+                </div>
                 <div class="block-benefits-slider">
                     <div class="row justify-content-center">
                         <div class="col-auto text-center mb-5">
@@ -346,8 +353,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-01.png" alt="">
                                 </div>
-                                <div class="title">รับส่วนลด 5% ในวัน AEON Day</div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">รับส่วนลด 5% ในวัน AEON Day</div>
+                                <div class="desc text-limit -x3">
                                     ตลอดระยะเวลารายการส่งเสริมการขาย
                                     เมื่อมียอดใช้จ่ายผ่านบัตรเครดิตอิออน
                                     ที่ร่วมรายการ
@@ -362,8 +369,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-02.png" alt="">
                                 </div>
-                                <div class="title">Happy plan 0% up to 10 months</div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">Happy plan 0% up to 10 months</div>
+                                <div class="desc text-limit -x3">
                                     ผ่อนชำระสินค้า อัตราดอกเบี้ยนาน<br>
                                     สูงสุด 10 เดือน
                                 </div>
@@ -378,8 +385,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-03.png" alt="">
                                 </div>
-                                <div class="title">AEON 365 days privileges</div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">AEON 365 days privileges</div>
+                                <div class="desc text-limit -x3">
                                     รับโค้ดส่วนลด 100 บาท ผ่าน
                                     AEON THAI MOBILE Application
                                 </div>
@@ -393,8 +400,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-04.png" alt="">
                                 </div>
-                                <div class="title">AEON Lounge </div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">AEON Lounge </div>
+                                <div class="desc text-limit -x3">
                                     สิทธิ์เข้าใช้บริการใน AEON LOUNGE
                                     ทุกสาขา ต่อ 1 ท่านเท่านั้น
                                 </div>
@@ -408,8 +415,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-05.png" alt="">
                                 </div>
-                                <div class="title">ฟรีค่าธรรมเนียม</div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">ฟรีค่าธรรมเนียม</div>
+                                <div class="desc text-limit -x3">
                                     ฟรีค่าธรรมเนียมสำหรับบัตรหลัก<br>
                                     และบัตรเสริม
                                 </div>
@@ -423,8 +430,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-01.png" alt="">
                                 </div>
-                                <div class="title">รับส่วนลด 5% ในวัน AEON Day</div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">รับส่วนลด 5% ในวัน AEON Day</div>
+                                <div class="desc text-limit -x3">
                                     ตลอดระยะเวลารายการส่งเสริมการขาย
                                     เมื่อมียอดใช้จ่ายผ่านบัตรเครดิตอิออน
                                     ที่ร่วมรายการ
@@ -439,8 +446,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-02.png" alt="">
                                 </div>
-                                <div class="title">Happy plan 0% up to 10 months</div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">Happy plan 0% up to 10 months</div>
+                                <div class="desc text-limit -x3">
                                     ผ่อนชำระสินค้า อัตราดอกเบี้ยนาน<br>
                                     สูงสุด 10 เดือน
                                 </div>
@@ -455,8 +462,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-03.png" alt="">
                                 </div>
-                                <div class="title">AEON 365 days privileges</div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">AEON 365 days privileges</div>
+                                <div class="desc text-limit -x3">
                                     รับโค้ดส่วนลด 100 บาท ผ่าน
                                     AEON THAI MOBILE Application
                                 </div>
@@ -470,8 +477,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-04.png" alt="">
                                 </div>
-                                <div class="title">AEON Lounge </div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">AEON Lounge </div>
+                                <div class="desc text-limit -x3">
                                     สิทธิ์เข้าใช้บริการใน AEON LOUNGE
                                     ทุกสาขา ต่อ 1 ท่านเท่านั้น
                                 </div>
@@ -485,8 +492,8 @@
                                 <div class="icon">
                                     <img src="../assets/img/icon/benefits-05.png" alt="">
                                 </div>
-                                <div class="title">ฟรีค่าธรรมเนียม</div>
-                                <div class="desc">
+                                <div class="title text-limit -x2">ฟรีค่าธรรมเนียม</div>
+                                <div class="desc text-limit -x3">
                                     ฟรีค่าธรรมเนียมสำหรับบัตรหลัก<br>
                                     และบัตรเสริม
                                 </div>
@@ -894,6 +901,17 @@
             </div>
 
             <div class="section -III">
+                <div class="graphics">
+                    <div class="obj-mobile-I">
+                        <img src="../assets/img/icon/obj-mobile1.png" alt="obj-mobile1">
+                    </div>
+                    <div class="obj-mobile-II">
+                        <img src="../assets/img/icon/obj-mobile2.png" alt="obj-mobile2">
+                    </div>
+                    <div class="obj-mobile-III">
+                        <img src="../assets/img/icon/obj-mobile3.png" alt="obj-mobile3">
+                    </div>
+                </div>
                 <div class="master-card">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-auto text-center">
@@ -926,7 +944,7 @@
                 </div>
             </div>
 
-            <div class="section -IV">
+            <div class="section -IV mt-5">
                 <div class="container">
                     <a href="https://www.aeon.co.th/ndid/index.html?af_xp=custom&source_caller=ui&pid=AEON%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%2
                         0%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20
@@ -941,7 +959,18 @@
                 </div>
             </div>
 
-            <div class="section -V">
+            <div class="section -V mt-5">
+                <div class="graphics">
+                    <div class="obj-mobile-IV">
+                        <img src="../assets/img/icon/obj-mobile4.png" alt="obj-mobile4">
+                    </div>
+                    <div class="obj-mobile-V">
+                        <img src="../assets/img/icon/obj-mobile5.png" alt="obj-mobile5">
+                    </div>
+                    <div class="obj-mobile-VI">
+                        <img src="../assets/img/icon/obj-mobile6.png" alt="obj-mobile6">
+                    </div>
+                </div>
                 <div class="container">
                     <div class="how-to">
                         <div class="row no-gutters">
@@ -1013,7 +1042,7 @@
                                                     </figure>
                                                 </div>
                                             </div>
-                                            
+
                                         </div>
                                         <div class="mobile-frame"></div>
                                     </div>

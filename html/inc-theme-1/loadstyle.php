@@ -19,6 +19,9 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
+<!-- icon -->
+<link href="../assets/css/feather.css" rel="stylesheet" type="text/css">
+
 <!-- plugin -->
 <link rel="stylesheet" href="../assets/css/slick.css">
 <link rel="stylesheet" href="../assets/css/slick-theme.css">
